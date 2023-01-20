@@ -1,0 +1,62 @@
+*{
+    font-family: cursive;
+}
+
+
+h3{
+    text-align: left;
+    font-family: cursive;
+    color: rgb(255, 0, 85);
+}
+
+
+body, html {
+    position: absolute;
+    width: 100%;
+    height: -webkit-fill-available;
+    margin: 0;
+    
+}
+
+
+body:after {
+    content: '';
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./Images/FlowersBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(255, 0, 85);
+    font-family:cursive;
+    margin: 0;
+    padding: 0;
+}
+
+
+input[type=text]{
+    color:rgb(0, 0, 0);
+}
+
+
+fieldset{
+    color:rgb(0, 0, 0);
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
